@@ -2,7 +2,7 @@
 
 **DOCKER.INPUTKAFKAAPI** is an API allows user to import json data, then put it into kafka topic.
 
-The docker file below is used for our project.
+We use this docker file to create our project.
  **[tiangolo/uwsgi-nginx-flask:flask-index](https://github.com/tiangolo/uwsgi-nginx-flask-docker)**
 
 ## Docker file ##
