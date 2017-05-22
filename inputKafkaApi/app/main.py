@@ -21,7 +21,6 @@ def add():
 	topic = request.json['topic'].encode('utf-8')
 	
         producer = KafkaProducer(bootstrap_servers=['Your kafka ip:9092'])
-        #producer = KafkaProducer(bootstrap_servers=[kafka_service_ip_port])
 	producer.send(topic, input_data)	
 	producer.flush()
 	return "Success!"
