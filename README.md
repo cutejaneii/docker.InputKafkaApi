@@ -54,4 +54,4 @@ If you do NOT modify api, use following command to create a new container.
 
 ## Important! ##
 
-We do NOT install kafka into this container, please install it if you need, or you can use the KAFKA outside from the container, for example, install KAFKA which is already installed at the HOST.
+We do NOT install kafka into this container, please install it if you need, or you can use the KAFKA outside from the container.
